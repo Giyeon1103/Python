@@ -34,3 +34,44 @@ x, y, z = feels
 print(x)
 print(y)
 print(z)
+
+#printing output variables
+x= "yo"
+y= "bo"
+z= "seyo"
+print(x, y, z)
+
+#this operator "+" can be used in output variables
+x= yo
+y= bo
+z= seyo
+print(x + y + z)
+
+#for numbers this operator "+" is used for mathematical operator
+x= 10
+y= 56
+z= 30
+print(x + y + z)
+
+#Global variables are variables that is outside of the function
+x = "anime"
+
+def myfunc():
+  print("I love " + x)
+
+myfunc()
+
+#in this code there is a global and local variable
+x = "anime"
+
+def myfunc():
+  x = "so good"
+  print("anime is " + x)
+
+myfunc()
+
+print("I love " + x)
+#the output shows that the local vairable is printed first
+output:
+anime is so good
+I love anime
